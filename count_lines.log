@@ -1,0 +1,57 @@
+2023-09-16 17:06:13,219 | Scanning .py files under requests-main
+2023-09-16 17:06:13,219 | Exclude requests-main\setup.py by pattern re.compile('.*setup.py')
+2023-09-16 17:06:13,219 | Include requests-main\docs\conf.py
+2023-09-16 17:06:13,219 | Include requests-main\docs\_themes\flask_theme_support.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\adapters.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\api.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\auth.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\certs.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\compat.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\cookies.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\exceptions.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\help.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\hooks.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\models.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\packages.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\sessions.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\status_codes.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\structures.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\utils.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\_internal_utils.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\__init__.py
+2023-09-16 17:06:13,219 | Include requests-main\src\requests\__version__.py
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\compat.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\conftest.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_help.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_hooks.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_lowlevel.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_packages.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_requests.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_structures.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_testserver.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_utils.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\utils.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\testserver\server.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,219 | Exclude requests-main\tests\testserver\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-16 17:06:13,234 | Result of requests-main\docs\conf.py: #line=386 #nonblank-line=292 #statement=39 #commented-line=215
+2023-09-16 17:06:13,234 | Result of requests-main\docs\_themes\flask_theme_support.py: #line=86 #nonblank-line=74 #statement=6 #commented-line=66
+2023-09-16 17:06:13,239 | Result of requests-main\src\requests\adapters.py: #line=537 #nonblank-line=458 #statement=194 #commented-line=168
+2023-09-16 17:06:13,239 | Result of requests-main\src\requests\api.py: #line=157 #nonblank-line=70 #statement=19 #commented-line=51
+2023-09-16 17:06:13,239 | Result of requests-main\src\requests\auth.py: #line=314 #nonblank-line=244 #statement=172 #commented-line=48
+2023-09-16 17:06:13,239 | Result of requests-main\src\requests\certs.py: #line=17 #nonblank-line=15 #statement=3 #commented-line=12
+2023-09-16 17:06:13,250 | Result of requests-main\src\requests\compat.py: #line=79 #nonblank-line=67 #statement=30 #commented-line=19
+2023-09-16 17:06:13,250 | Result of requests-main\src\requests\cookies.py: #line=561 #nonblank-line=477 #statement=236 #commented-line=189
+2023-09-16 17:06:13,250 | Result of requests-main\src\requests\exceptions.py: #line=141 #nonblank-line=86 #statement=37 #commented-line=49
+2023-09-16 17:06:13,250 | Result of requests-main\src\requests\help.py: #line=134 #nonblank-line=114 #statement=62 #commented-line=15
+2023-09-16 17:06:13,250 | Result of requests-main\src\requests\hooks.py: #line=33 #nonblank-line=27 #statement=14 #commented-line=13
+2023-09-16 17:06:13,266 | Result of requests-main\src\requests\models.py: #line=1032 #nonblank-line=861 #statement=443 #commented-line=279
+2023-09-16 17:06:13,266 | Result of requests-main\src\requests\packages.py: #line=28 #nonblank-line=22 #statement=17 #commented-line=5
+2023-09-16 17:06:13,266 | Result of requests-main\src\requests\sessions.py: #line=831 #nonblank-line=658 #statement=266 #commented-line=256
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\status_codes.py: #line=128 #nonblank-line=100 #statement=15 #commented-line=5
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\structures.py: #line=99 #nonblank-line=78 #statement=39 #commented-line=38
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\utils.py: #line=1091 #nonblank-line=886 #statement=481 #commented-line=336
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\_internal_utils.py: #line=50 #nonblank-line=42 #statement=21 #commented-line=17
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\__init__.py: #line=180 #nonblank-line=152 #statement=67 #commented-line=55
+2023-09-16 17:06:13,282 | Result of requests-main\src\requests\__version__.py: #line=14 #nonblank-line=13 #statement=10 #commented-line=3
+2023-09-16 17:06:13,282 | Overall result: #file=20 #line=5898 #nonblank-line=4736 #statement=2171 #commented-line=1839

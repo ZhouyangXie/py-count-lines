@@ -1,57 +1,93 @@
-2023-09-16 17:06:13,219 | Scanning .py files under requests-main
-2023-09-16 17:06:13,219 | Exclude requests-main\setup.py by pattern re.compile('.*setup.py')
-2023-09-16 17:06:13,219 | Include requests-main\docs\conf.py
-2023-09-16 17:06:13,219 | Include requests-main\docs\_themes\flask_theme_support.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\adapters.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\api.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\auth.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\certs.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\compat.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\cookies.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\exceptions.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\help.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\hooks.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\models.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\packages.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\sessions.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\status_codes.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\structures.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\utils.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\_internal_utils.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\__init__.py
-2023-09-16 17:06:13,219 | Include requests-main\src\requests\__version__.py
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\compat.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\conftest.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_help.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_hooks.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_lowlevel.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_packages.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_requests.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_structures.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_testserver.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\test_utils.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\utils.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\testserver\server.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,219 | Exclude requests-main\tests\testserver\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
-2023-09-16 17:06:13,234 | Result of requests-main\docs\conf.py: #line=386 #nonblank-line=292 #statement=39 #commented-line=215
-2023-09-16 17:06:13,234 | Result of requests-main\docs\_themes\flask_theme_support.py: #line=86 #nonblank-line=74 #statement=6 #commented-line=66
-2023-09-16 17:06:13,239 | Result of requests-main\src\requests\adapters.py: #line=537 #nonblank-line=458 #statement=194 #commented-line=168
-2023-09-16 17:06:13,239 | Result of requests-main\src\requests\api.py: #line=157 #nonblank-line=70 #statement=19 #commented-line=51
-2023-09-16 17:06:13,239 | Result of requests-main\src\requests\auth.py: #line=314 #nonblank-line=244 #statement=172 #commented-line=48
-2023-09-16 17:06:13,239 | Result of requests-main\src\requests\certs.py: #line=17 #nonblank-line=15 #statement=3 #commented-line=12
-2023-09-16 17:06:13,250 | Result of requests-main\src\requests\compat.py: #line=79 #nonblank-line=67 #statement=30 #commented-line=19
-2023-09-16 17:06:13,250 | Result of requests-main\src\requests\cookies.py: #line=561 #nonblank-line=477 #statement=236 #commented-line=189
-2023-09-16 17:06:13,250 | Result of requests-main\src\requests\exceptions.py: #line=141 #nonblank-line=86 #statement=37 #commented-line=49
-2023-09-16 17:06:13,250 | Result of requests-main\src\requests\help.py: #line=134 #nonblank-line=114 #statement=62 #commented-line=15
-2023-09-16 17:06:13,250 | Result of requests-main\src\requests\hooks.py: #line=33 #nonblank-line=27 #statement=14 #commented-line=13
-2023-09-16 17:06:13,266 | Result of requests-main\src\requests\models.py: #line=1032 #nonblank-line=861 #statement=443 #commented-line=279
-2023-09-16 17:06:13,266 | Result of requests-main\src\requests\packages.py: #line=28 #nonblank-line=22 #statement=17 #commented-line=5
-2023-09-16 17:06:13,266 | Result of requests-main\src\requests\sessions.py: #line=831 #nonblank-line=658 #statement=266 #commented-line=256
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\status_codes.py: #line=128 #nonblank-line=100 #statement=15 #commented-line=5
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\structures.py: #line=99 #nonblank-line=78 #statement=39 #commented-line=38
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\utils.py: #line=1091 #nonblank-line=886 #statement=481 #commented-line=336
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\_internal_utils.py: #line=50 #nonblank-line=42 #statement=21 #commented-line=17
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\__init__.py: #line=180 #nonblank-line=152 #statement=67 #commented-line=55
-2023-09-16 17:06:13,282 | Result of requests-main\src\requests\__version__.py: #line=14 #nonblank-line=13 #statement=10 #commented-line=3
-2023-09-16 17:06:13,282 | Overall result: #file=20 #line=5898 #nonblank-line=4736 #statement=2171 #commented-line=1839
+2023-09-18 14:18:12,870 | Scanning .py files under .
+2023-09-18 14:18:12,871 | Include count_lines.py
+2023-09-18 14:18:12,878 | Exclude image-transform\setup.py by pattern re.compile('.*setup.py')
+2023-09-18 14:18:12,879 | Exclude image-transform\examples\load_transform_from_config.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,880 | Exclude image-transform\examples\transform_image.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,880 | Exclude image-transform\examples\coco_fasterrcnn\config.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,880 | Exclude image-transform\examples\coco_fasterrcnn\data.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,880 | Exclude image-transform\examples\coco_fasterrcnn\main.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,881 | Exclude image-transform\examples\coco_fasterrcnn\train_test.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,881 | Exclude image-transform\examples\coco_fasterrcnn\utils.py by pattern re.compile('.*example.*')
+2023-09-18 14:18:12,881 | Include image-transform\image_transform\draw.py
+2023-09-18 14:18:12,881 | Include image-transform\image_transform\__init__.py
+2023-09-18 14:18:12,882 | Include image-transform\image_transform\annotation\basic.py
+2023-09-18 14:18:12,882 | Include image-transform\image_transform\annotation\box.py
+2023-09-18 14:18:12,882 | Include image-transform\image_transform\annotation\box_array.py
+2023-09-18 14:18:12,882 | Include image-transform\image_transform\annotation\composite.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\image.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\label.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\mask.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\oriented_box.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\oriented_box_array.py
+2023-09-18 14:18:12,883 | Include image-transform\image_transform\annotation\point.py
+2023-09-18 14:18:12,884 | Include image-transform\image_transform\annotation\point_array.py
+2023-09-18 14:18:12,884 | Include image-transform\image_transform\annotation\polygon.py
+2023-09-18 14:18:12,884 | Include image-transform\image_transform\annotation\utils.py
+2023-09-18 14:18:12,884 | Include image-transform\image_transform\annotation\__init__.py
+2023-09-18 14:18:12,885 | Include image-transform\image_transform\annotation\serialization\coco.py
+2023-09-18 14:18:12,885 | Include image-transform\image_transform\annotation\serialization\labelme.py
+2023-09-18 14:18:12,885 | Include image-transform\image_transform\annotation\serialization\voc.py
+2023-09-18 14:18:12,885 | Include image-transform\image_transform\annotation\serialization\__init__.py
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_box.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_composite.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_image.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_label.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_mask.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,886 | Exclude image-transform\image_transform\annotation\test\test_oriented_box.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,887 | Exclude image-transform\image_transform\annotation\test\test_point.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,887 | Exclude image-transform\image_transform\annotation\test\test_polygon.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,887 | Exclude image-transform\image_transform\annotation\test\test_serialization.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,887 | Exclude image-transform\image_transform\annotation\test\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,888 | Include image-transform\image_transform\metric\base.py
+2023-09-18 14:18:12,888 | Include image-transform\image_transform\metric\classification.py
+2023-09-18 14:18:12,888 | Include image-transform\image_transform\metric\detection.py
+2023-09-18 14:18:12,888 | Include image-transform\image_transform\metric\__init__.py
+2023-09-18 14:18:12,889 | Exclude image-transform\image_transform\metric\test\test_classification.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,889 | Exclude image-transform\image_transform\metric\test\test_detection.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,889 | Exclude image-transform\image_transform\metric\test\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,889 | Include image-transform\image_transform\transform\basic.py
+2023-09-18 14:18:12,890 | Include image-transform\image_transform\transform\color.py
+2023-09-18 14:18:12,890 | Include image-transform\image_transform\transform\conversion.py
+2023-09-18 14:18:12,890 | Include image-transform\image_transform\transform\function.py
+2023-09-18 14:18:12,891 | Include image-transform\image_transform\transform\geometric.py
+2023-09-18 14:18:12,891 | Include image-transform\image_transform\transform\minibatch.py
+2023-09-18 14:18:12,891 | Include image-transform\image_transform\transform\postprocess.py
+2023-09-18 14:18:12,891 | Include image-transform\image_transform\transform\random_geometric.py
+2023-09-18 14:18:12,891 | Include image-transform\image_transform\transform\__init__.py
+2023-09-18 14:18:12,892 | Exclude image-transform\image_transform\transform\test\test_transform.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,892 | Exclude image-transform\image_transform\transform\test\__init__.py by pattern re.compile('.*[tT][eE][sS][tT].*')
+2023-09-18 14:18:12,907 | Result of count_lines.py: #line=236 #nonblank-line=198 #statement=135 #commented-line=31
+2023-09-18 14:18:12,916 | Result of image-transform\image_transform\draw.py: #line=193 #nonblank-line=159 #statement=99 #commented-line=0
+2023-09-18 14:18:12,916 | Result of image-transform\image_transform\__init__.py: #line=0 #nonblank-line=0 #statement=0 #commented-line=0
+2023-09-18 14:18:12,925 | Result of image-transform\image_transform\annotation\basic.py: #line=307 #nonblank-line=269 #statement=100 #commented-line=147
+2023-09-18 14:18:12,941 | Result of image-transform\image_transform\annotation\box.py: #line=352 #nonblank-line=302 #statement=138 #commented-line=30
+2023-09-18 14:18:12,964 | Result of image-transform\image_transform\annotation\box_array.py: #line=561 #nonblank-line=491 #statement=191 #commented-line=90
+2023-09-18 14:18:12,976 | Result of image-transform\image_transform\annotation\composite.py: #line=286 #nonblank-line=237 #statement=180 #commented-line=28
+2023-09-18 14:18:12,987 | Result of image-transform\image_transform\annotation\image.py: #line=282 #nonblank-line=218 #statement=131 #commented-line=23
+2023-09-18 14:18:13,007 | Result of image-transform\image_transform\annotation\label.py: #line=600 #nonblank-line=499 #statement=281 #commented-line=175
+2023-09-18 14:18:13,017 | Result of image-transform\image_transform\annotation\mask.py: #line=198 #nonblank-line=158 #statement=109 #commented-line=29
+2023-09-18 14:18:13,031 | Result of image-transform\image_transform\annotation\oriented_box.py: #line=353 #nonblank-line=303 #statement=139 #commented-line=31
+2023-09-18 14:18:13,052 | Result of image-transform\image_transform\annotation\oriented_box_array.py: #line=504 #nonblank-line=448 #statement=176 #commented-line=70
+2023-09-18 14:18:13,062 | Result of image-transform\image_transform\annotation\point.py: #line=207 #nonblank-line=176 #statement=103 #commented-line=28
+2023-09-18 14:18:13,072 | Result of image-transform\image_transform\annotation\point_array.py: #line=238 #nonblank-line=204 #statement=104 #commented-line=21
+2023-09-18 14:18:13,093 | Result of image-transform\image_transform\annotation\polygon.py: #line=418 #nonblank-line=353 #statement=221 #commented-line=22
+2023-09-18 14:18:13,102 | Result of image-transform\image_transform\annotation\utils.py: #line=199 #nonblank-line=160 #statement=121 #commented-line=24
+2023-09-18 14:18:13,104 | Result of image-transform\image_transform\annotation\__init__.py: #line=45 #nonblank-line=41 #statement=15 #commented-line=0
+2023-09-18 14:18:13,109 | Result of image-transform\image_transform\annotation\serialization\coco.py: #line=84 #nonblank-line=70 #statement=49 #commented-line=14
+2023-09-18 14:18:13,116 | Result of image-transform\image_transform\annotation\serialization\labelme.py: #line=164 #nonblank-line=144 #statement=109 #commented-line=18
+2023-09-18 14:18:13,120 | Result of image-transform\image_transform\annotation\serialization\voc.py: #line=109 #nonblank-line=94 #statement=61 #commented-line=23
+2023-09-18 14:18:13,121 | Result of image-transform\image_transform\annotation\serialization\__init__.py: #line=12 #nonblank-line=10 #statement=4 #commented-line=0
+2023-09-18 14:18:13,123 | Result of image-transform\image_transform\metric\base.py: #line=43 #nonblank-line=35 #statement=22 #commented-line=8
+2023-09-18 14:18:13,131 | Result of image-transform\image_transform\metric\classification.py: #line=232 #nonblank-line=209 #statement=93 #commented-line=73
+2023-09-18 14:18:13,141 | Result of image-transform\image_transform\metric\detection.py: #line=206 #nonblank-line=174 #statement=116 #commented-line=29
+2023-09-18 14:18:13,142 | Result of image-transform\image_transform\metric\__init__.py: #line=0 #nonblank-line=0 #statement=0 #commented-line=0
+2023-09-18 14:18:13,147 | Result of image-transform\image_transform\transform\basic.py: #line=161 #nonblank-line=114 #statement=84 #commented-line=22
+2023-09-18 14:18:13,155 | Result of image-transform\image_transform\transform\color.py: #line=205 #nonblank-line=172 #statement=121 #commented-line=37
+2023-09-18 14:18:13,162 | Result of image-transform\image_transform\transform\conversion.py: #line=209 #nonblank-line=193 #statement=82 #commented-line=84
+2023-09-18 14:18:13,165 | Result of image-transform\image_transform\transform\function.py: #line=51 #nonblank-line=43 #statement=25 #commented-line=4
+2023-09-18 14:18:13,176 | Result of image-transform\image_transform\transform\geometric.py: #line=360 #nonblank-line=300 #statement=163 #commented-line=93
+2023-09-18 14:18:13,183 | Result of image-transform\image_transform\transform\minibatch.py: #line=150 #nonblank-line=129 #statement=90 #commented-line=24
+2023-09-18 14:18:13,189 | Result of image-transform\image_transform\transform\postprocess.py: #line=130 #nonblank-line=118 #statement=80 #commented-line=24
+2023-09-18 14:18:13,195 | Result of image-transform\image_transform\transform\random_geometric.py: #line=130 #nonblank-line=103 #statement=94 #commented-line=0
+2023-09-18 14:18:13,197 | Result of image-transform\image_transform\transform\__init__.py: #line=63 #nonblank-line=60 #statement=9 #commented-line=7
+2023-09-18 14:18:13,197 | Overall result: #file=34 #line=7288 #nonblank-line=6184 #statement=3445 #commented-line=1209

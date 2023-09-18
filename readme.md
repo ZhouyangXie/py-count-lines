@@ -1,6 +1,6 @@
 ### About
 
-`count_lines.py` counts code lines, non-blank lines, statesment, comment lines of selected *.py files recursively under a directory. This repo includes script `count_lines.py`, `count_lines.log` as a demo output file, git submodule python `requests` as a demo project to analyze, and this readme file. Try this out by cloning this repo with `--recurse-submodules` argument, and run:
+`count_lines.py` counts code lines, non-blank lines, statesment, comment lines of selected *.py files recursively under a directory. This repo includes script `count_lines.py`, `count_lines.log` as a demo output file, git submodule python `image-transform` as a demo project to analyze, and this readme file. Try this out by cloning this repo with `--recurse-submodules` argument, and run:
 
 ```
 python count_lines.py
